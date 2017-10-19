@@ -1,0 +1,28 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "description": "User authentication API",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jestrade/"
+  },
+  "author": "@jestrade",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "js"
+  ],
+  "license": "ISC"
+}
